@@ -1,0 +1,31 @@
+/* Asteroid Impact — custom Starlight theme overrides */
+
+:root {
+  --sl-color-accent-low: #1a2d4a;
+  --sl-color-accent: #3b82f6;
+  --sl-color-accent-high: #93c5fd;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #e8f0fe;
+  --sl-color-gray-2: #c7d7f5;
+  --sl-color-gray-3: #7a9cc8;
+  --sl-color-gray-4: #3d5a80;
+  --sl-color-gray-5: #1e2d4a;
+  --sl-color-gray-6: #0f172a;
+  --sl-color-black: #060d1a;
+}
+
+/* Hero section on landing page */
+.hero-tagline {
+  font-size: 1.25rem;
+  color: var(--sl-color-gray-2);
+  max-width: 60ch;
+}
+
+/* Play page iframe */
+.game-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 8px;
+  background: #000;
+}

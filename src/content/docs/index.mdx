@@ -1,0 +1,62 @@
+---
+title: Asteroid Impact
+description: An open-source video game platform for studying attention, reward, and cognitive control in mediated environments.
+template: splash
+hero:
+  tagline: An open-source WebGL game platform for studying attention, reward, and cognitive control in mediated environments.
+  image:
+    file: ../../assets/hero-screenshot.png
+  actions:
+    - text: Play the demo
+      link: /play
+      icon: right-arrow
+      variant: primary
+    - text: Documentation
+      link: /docs/overview
+      icon: open-book
+    - text: GitHub
+      link: https://github.com/asteroidimpact/ai_crystal_diss
+      icon: github
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What is Asteroid Impact?
+
+Asteroid Impact is an interactive, arcade-style, point-and-click video game designed for use as an experimental stimulus in communication and cognitive science research. Players pilot a spaceship to collect crystals while avoiding asteroids, with an embedded reaction-time probe task for measuring cognitive resource allocation.
+
+The game is built in Unity and runs in any modern web browser via WebGL — no download or installation required.
+
+<CardGrid>
+  <Card title="Play the demo" icon="rocket">
+    Try Asteroid Impact in your browser. No account or installation needed.
+    [→ Play now](/play)
+  </Card>
+  <Card title="Use it in your research" icon="document">
+    Fully configurable via ScriptableObjects. Spatial proximity, reward magnitude, cognitive load, and more — all adjustable without code changes.
+    [→ Configuration reference](/docs/configuration)
+  </Card>
+  <Card title="Data logging included" icon="setting">
+    Built-in logging to Supabase (PostgreSQL). Four tables capture reaction-time events, full gameplay logs, crystal collection events, and survey responses.
+    [→ Data logging docs](/docs/data-logging)
+  </Card>
+  <Card title="Open source" icon="github">
+    MIT licensed. Fork it, adapt it, cite it.
+    [→ GitHub repository](https://github.com/asteroidimpact/ai_crystal_diss)
+  </Card>
+</CardGrid>
+
+## Research applications
+
+Asteroid Impact has been used to study:
+
+- **Spatial proximity and reward magnitude** — how the distance between a player and a reward affects attention allocation and reaction time ([Reward Proximity Study](https://osf.io/38der))
+- **Cognitive load and perceptual load** — optional manipulations available via round configuration
+- **Immersion and motivated attention** — post-round surveys assess engagement, motivation, and perceived difficulty
+
+## Cite this tool
+
+A methods paper is in preparation. In the meantime, please cite the OSF repository:
+
+> [Author], J. (2024). *Asteroid Impact: A WebGL game platform for studying attention and cognitive control* [Software]. Open Science Framework. https://osf.io/38der
