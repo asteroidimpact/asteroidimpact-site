@@ -10,11 +10,13 @@ export default defineConfig({
 		starlight({
 			title: 'Asteroid Impact',
 			description: 'An open-source video game platform for studying attention, reward, and cognitive control in mediated environments.',
-			logo: {
-				light: './src/assets/logo-light.svg',
-				dark: './src/assets/logo-dark.svg',
-				replacesTitle: false,
-			},
+			// Logo placeholder — add logo-light.svg and logo-dark.svg to src/assets/
+			// and uncomment this block to enable a custom logo:
+			// logo: {
+			//   light: './src/assets/logo-light.svg',
+			//   dark: './src/assets/logo-dark.svg',
+			//   replacesTitle: false,
+			// },
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/asteroidimpact/ai_crystal_diss' },
 			],
