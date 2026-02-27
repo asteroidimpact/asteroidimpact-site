@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://asteroidimpact.dev',
+	// No base path needed when using a custom domain with GitHub Pages
 	integrations: [
 		starlight({
 			title: 'Asteroid Impact',
